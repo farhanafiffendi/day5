@@ -64,23 +64,23 @@ renderBlog()
 
 let firstBlog =
 `           
-            <div class="blog-list-item">
+           <div class="blog-list-item">
                 <div class="blog-image">
-                    <img src="https://media.istockphoto.com/photos/smart-female-it-programer-working-on-desktop-computer-in-data-center-picture-id1194430803" alt="" />
+                    <img src="https://media.istockphoto.com/photos/smart-female-it-programer-working-on-desktop-computer-in-data-center-picture-id1194430803"
+                        alt="" />
                 </div>
                 <div class="blog-content">
                     <h1>
-                        <a style="font-size: 18px;" href="blog-detail.html" target="_blank">Anak-anak China Makin Getol
-                            Belajar Program Komputer Coding
+                        <a style="font-size: 18px;" href="blog-detail.html" target="_blank">Dumbways Mobile App 2022
                         </a>
                     </h1>
-                    <p>durasi: 2 hari</p>
+                    <p class="teks">Durasi: 2 hari</p>
                     <i class="fa-brands fa-node-js" style="font-size: 30px;"></i>
                     <i class="fa-brands fa-react" style="font-size: 30px;"></i>
                     <i class="fa-brands fa-html5" style="font-size: 30px;"></i>
                     <p style="font-size: 12px;">
-                        Tren pemrograman komputer atau coding semakin populer di China. Tak hanya kalangan dewasa,
-                        anak-anak juga turut kecanduan coding di negerti Tiongkok
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quod cum commodi reprehenderit
+                        molestias ad corporis, aperiam temporibus perspiciatis quisquam.
                     </p>
                     <div class="btn-group">
                         <button class="btn-edit">Edit</button>
@@ -91,21 +91,21 @@ let firstBlog =
 
             <div class="blog-list-item">
                 <div class="blog-image">
-                    <img src="https://media.istockphoto.com/photos/smart-female-it-programer-working-on-desktop-computer-in-data-center-picture-id1194430803" alt="" />
+                    <img src="https://1z1euk35x7oy36s8we4dr6lo-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/dev_technosys_android_app_developer.png"
+                        alt="" />
                 </div>
                 <div class="blog-content">
                     <h1>
-                        <a style="font-size: 18px;" href="blog-detail.html" target="_blank">Anak-anak China Makin Getol
-                            Belajar Program Komputer Coding
+                        <a style="font-size: 18px;" href="blog-detail.html" target="_blank">Dumbways Mobile App 2022
                         </a>
                     </h1>
-                    <p>durasi: 2 hari</p>
+                    <p class="teks">Durasi: 2 hari</p>
                     <i class="fa-brands fa-node-js" style="font-size: 30px;"></i>
                     <i class="fa-brands fa-react" style="font-size: 30px;"></i>
                     <i class="fa-brands fa-html5" style="font-size: 30px;"></i>
                     <p style="font-size: 12px;">
-                        Tren pemrograman komputer atau coding semakin populer di China. Tak hanya kalangan dewasa,
-                        anak-anak juga turut kecanduan coding di negerti Tiongkok
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ut tenetur impedit provident
+                        doloremque sit cumque voluptatem nobis quo inventore?
                     </p>
                     <div class="btn-group">
                         <button class="btn-edit">Edit</button>
@@ -116,21 +116,21 @@ let firstBlog =
 
             <div class="blog-list-item">
                 <div class="blog-image">
-                    <img src="https://media.istockphoto.com/photos/smart-female-it-programer-working-on-desktop-computer-in-data-center-picture-id1194430803" alt="" />
+                    <img src="http://www.ellocentlabs.com/wp-content/uploads/2021/03/Mobile-App-Development-Services.png"
+                        alt="" />
                 </div>
                 <div class="blog-content">
                     <h1>
-                        <a style="font-size: 18px;" href="blog-detail.html" target="_blank">Anak-anak China Makin Getol
-                            Belajar Program Komputer Coding
+                        <a style="font-size: 18px;" href="blog-detail.html" target="_blank">Dumbways Mobile App 2022
                         </a>
                     </h1>
-                    <p>durasi: 2 hari</p>
+                    <p class="teks">Durasi: 2 hari</p>
                     <i class="fa-brands fa-node-js" style="font-size: 30px;"></i>
                     <i class="fa-brands fa-react" style="font-size: 30px;"></i>
                     <i class="fa-brands fa-html5" style="font-size: 30px;"></i>
                     <p style="font-size: 12px;">
-                        Tren pemrograman komputer atau coding semakin populer di China. Tak hanya kalangan dewasa,
-                        anak-anak juga turut kecanduan coding di negerti Tiongkok
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse nisi ex, recusandae in nesciunt
+                        sequi quidem ipsa sed quasi perspiciatis.
                     </p>
                     <div class="btn-group">
                         <button class="btn-edit">Edit</button>
@@ -156,10 +156,10 @@ function renderBlog() {
                 <div class="blog-content">
                     <h1>
                         <a href="blog-detail.html" target="_blank">
-                        ${blogs[dataBlog].name}</a> 
+                        ${blogs[dataBlog].name}</a>
+                         <p class="teks">Durasi: ${getDate(blogs[dataBlog].start, blogs[dataBlog].end)}</p> 
                     </h1>
                     <div class="detail-blog-content">
-                        <p>durasi: ${getDate(blogs[dataBlog].start, blogs[dataBlog].end)}</p>
                     </div>
                     <i class="${blogs[dataBlog].node}" style="font-size: 30px;"></i>
                     <i class="${blogs[dataBlog].javascript}" style="font-size: 30px;"></i>
