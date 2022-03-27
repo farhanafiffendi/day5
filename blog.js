@@ -191,9 +191,9 @@ function getDate(start, end) {
     let month = Math.floor(day / 30);
 
 
-    if (day > 0) {
+    if (day <= 30) {
         return `${day} hari`;
-    } else if (month > 0) {
+    } else if (day > 30 ) {
         return `${month} bulan`;
     }
 }
