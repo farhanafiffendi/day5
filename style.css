@@ -48,18 +48,18 @@ nav .nav-right a {
 
 .container {
   background-color: rgb(214, 214, 214);
-  height: 100vh;
+  height: 91vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .blog {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   background-color: white;
   width: 950px;
-  height: 560px;
+  height: 540px;
   padding-left: 40px;
   padding-top: 20px;
   box-sizing: border-box;
